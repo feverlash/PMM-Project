@@ -1,0 +1,20 @@
+Kasus
+Risiko kredit merupakan risiko yang timbul atas kegagalan dari suatu Nasabah dalam membayarkan kewajibannya atas pinjaman yang dilakukan kepada Perusahaan.
+Data yang diberikan merupakan data pinjaman dari Nasabah disalah satu Perusahaan.
+Data tersebut terdiri dari 26 kolom yang berisikan seputar profil Nasabah dan transaksi pinjaman yang dilakukan Nasabah.
+Untuk lebih detail silahkan dilihat pada sheet "Deskripsi Data".
+
+Tugas
+Anda bersama Tim adalah Tim Mangement Risiko Kredit pada salah satau Perusahaan ternama.
+Anda dan Tim diminta untuk menganalisa serta membuat model klasifikasi dengan tujuan untuk mengetahui apakah suatu pinjaman yang dilakukan oleh seoarang Nasabah adalah baik atau buruk.
+Hasil analisa dan model Anda dan Tim akan digunakan oleh Perusahaan untuk melakukan screening dalam menerima atau menolak seorang Nasabah ketika mengajukan Pinjaman.
+
+Keterangan
+Disediakan dua kumpulan data yang terdiri dari dua file csv:
+[1] File csv dengan nama "Dataset" merupakan data yang dapat Anda gunakan sebagai data training dan testing model (sudah terdapat klasifikasi bahwa pinjaman tersebut baik (1) atau buruk (0).
+[2] File csv dengan nama "Data_Validation" merupakan data yang dapat Anda gunakan sebagai validasi model yang sudah dibentuk (Anda harus melakukan klasifikasi berdasarkan model Anda apakah pinjaman tersebut baik (1) atau buruk (0).
+Untuk format Validasi Model dapat mengacu pada sheet "Format Model Validasi".
+Pengerjaan project diselesaikan dalam waktu dua minggu, dari tanggal 14 November 2022 hingga 28 November 2022.
+Metode evaluasi model yang digunakan adalah Confusion Matrix.
+Tidak ada format khusus dalam laporan proses analisa, pembentukan model hingga hasil pemodelan yang Anda lakukan sehingga tergantung pada kreatifitas masing-masing Tim.
+Komponen penilaian akhir akan ditentukan oleh Bapak Ibu Dosen dimasing-masing kelas, yaitu Bapak Nanang  Susyanto dan Ibu Dwi Ertiningsih.
