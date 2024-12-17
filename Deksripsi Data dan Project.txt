@@ -1,0 +1,49 @@
+Kasus
+Risiko kredit merupakan risiko yang timbul atas kegagalan dari suatu Nasabah dalam membayarkan kewajibannya atas pinjaman yang dilakukan kepada Perusahaan.
+Data yang diberikan merupakan data pinjaman dari Nasabah disalah satu Perusahaan.
+Data tersebut terdiri dari 26 kolom yang berisikan seputar profil Nasabah dan transaksi pinjaman yang dilakukan Nasabah.
+Untuk lebih detail silahkan dilihat pada sheet "Deskripsi Data".
+
+Tugas
+Anda bersama Tim adalah Tim Mangement Risiko Kredit pada salah satau Perusahaan ternama.
+Anda dan Tim diminta untuk menganalisa serta membuat model klasifikasi dengan tujuan untuk mengetahui apakah suatu pinjaman yang dilakukan oleh seoarang Nasabah adalah baik atau buruk.
+Hasil analisa dan model Anda dan Tim akan digunakan oleh Perusahaan untuk melakukan screening dalam menerima atau menolak seorang Nasabah ketika mengajukan Pinjaman.
+
+Keterangan
+Disediakan dua kumpulan data yang terdiri dari dua file csv:
+[1] File csv dengan nama "Dataset" merupakan data yang dapat Anda gunakan sebagai data training dan testing model (sudah terdapat klasifikasi bahwa pinjaman tersebut baik (1) atau buruk (0).
+[2] File csv dengan nama "Data_Validation" merupakan data yang dapat Anda gunakan sebagai validasi model yang sudah dibentuk (Anda harus melakukan klasifikasi berdasarkan model Anda apakah pinjaman tersebut baik (1) atau buruk (0).
+Untuk format Validasi Model dapat mengacu pada sheet "Format Model Validasi".
+Pengerjaan project diselesaikan dalam waktu dua minggu, dari tanggal 14 November 2022 hingga 28 November 2022.
+Metode evaluasi model yang digunakan adalah Confusion Matrix.
+Tidak ada format khusus dalam laporan proses analisa, pembentukan model hingga hasil pemodelan yang Anda lakukan sehingga tergantung pada kreatifitas masing-masing Tim.
+Komponen penilaian akhir akan ditentukan oleh Bapak Ibu Dosen dimasing-masing kelas, yaitu Bapak Nanang  Susyanto dan Ibu Dwi Ertiningsih.
+
+Deskripsi Data
+1	id	Merupakan identitas (unique number) dari transaksi pinjaman dari seorang Nasabah
+2	member_id	Merupakan identitas (unique number) dari seorang Nasabah
+3	loan_amnt	Merupakan jumlah pinjaman dari Nasabah
+4	funded_amnt	Merupakan jumlah pinjaman yang disetujui oleh Perusahaan
+5	term	Merupakan lama waktu (tenor) dari pinjaman yang diberikan oleh Perusahaan kepada Nasabah
+6	int_rate	Merupakan bunga yang diberikan Perusahaan kepada Nasabah
+7	installment	Merupakan cicilan yang dibayarkan oleh Nasabah
+8	grade	Merupakan klasifikasi penilaian internal (rating) dari pinjaman seorang Nasabah
+9	sub_grade	Merupakan detail klasifikasi penilaian internal (rating) dari pinjaman seorang Nasabah
+10	emp_title	Merupakan level pekerjaan dari seorang Nasabah
+11	emp_length	Merupakan lama pengalaman bekerja dari seorang Nasabah
+12	home_ownership	Merupakan status kepemilikan rumah dari seoarang Nasabah
+13	annual_inc	Merupakan pendapatan tahunan dari seorang Nasabah
+14	verification_status	Merupakan status verifikasi pinjaman Nasabah oleh Perusahaan
+15	purpose	Merupakan tujuan dari pinjaman yang dilakukan Nasabah
+16	title	Merupakan detail tujuan dari pinjaman yang dilakukan Nasabah
+17	zip_code	Merupakan kode pos dari alamat Nasabah
+18	addr_state	Merupakan kode alamat Nasabah
+19	dti	Merupakan perbandingan antara pinjaman dan pendapan dari Nasabah
+20	total_acc	Merupakan jumlah transaksi pinjaman yang dimiliki oleh seorang Nasabah
+21	total_pymnt	Merupakan total cicilan yang sudah dibayarkan oleh Nasabah
+22	total_rec_prncp	Merupakan biaya yang diterima Perusahaan berkaitan dengan kelalaian pembayaran biaya pokok dari pinjaman yang dilakukan Nasabah
+23	recoveries	Merupakan biaya yang diterima kembali oleh Perusahaan ketika suatu Nasabah sudah gagal membayar pinjaman yang dilakukan
+24	last_pymnt_amnt	Merupakan cicilan terakhir yang dibayarkan oleh Nasabah kepada Perusahaan
+25	application_type	Merupakan tipe pinjaman yang dilakukan Nasabah
+26	loan_status_class	Merupakan status klasifikasi pinjaman suatu Nasbah. Jika 0 merupakan status pinjaman Nasabah tersebut buruk, atau 1 merupakan status pinjaman Nasabah tersebut baik.
+
