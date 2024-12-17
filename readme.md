@@ -1,17 +1,17 @@
-#PMM Final Project
+PMM Final Project
 
-##Case
+Case
 Credit risk is the risk arising from the failure of a customer to pay its obligations on loans made to the Company.
 The data provided is loan data from customers in one company.
 The data consists of 26 columns containing the customer profile and loan transactions made by the customer.
 For more details please see the ‘Data Description’ sheet.
 
-##Tasks
+Tasks
 You and your team are a Credit Risk Management Team in one of the well-known companies.
 You and your team are asked to analyse and create a classification model with the aim of knowing whether a loan made by a customer is good or bad.
 The results of your analyses and models will be used by the Company to conduct screening in accepting or rejecting a customer when applying for a loan.
 
-##Description
+Description
 Two data sets consisting of two csv files are provided:
 [1] csv file with the name ‘Dataset’ is data that you can use as training data and testing models (there is already a classification that the loan is good (1) or bad (0).
 [2] The csv file with the name ‘Data_Validation’ is data that you can use as validation of the model that has been formed (you must classify based on your model whether the loan is good (1) or bad (0).
